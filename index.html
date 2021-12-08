@@ -24,10 +24,13 @@
             display: inline-block;
             text-decoration: none;    
             margin:10px;
+        
         }
         ul li{
             padding: 1px;
             text-decoration: none;
+            margin-left: 70%;
+            list-style:none
         }
         #przycisk{
             margin-left: 47%;
@@ -58,9 +61,9 @@
                         output += `
 
                         <ul>
-                            <li>Id: ${users[i].id}</li>
-                            <li>Tytul: ${users[i].title}</li>
-                            <li>Nazwa: ${users[i].name}</li>
+                            <li><b>Id </b>: ${users[i].id}</li>
+                            <li><b>Tytul</b>: ${users[i].title}</li>
+                            <li><b>Nazwa</b>: ${users[i].name}</li>
                             <li>${users[i].img}</li>
                         </ul>
 
